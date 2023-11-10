@@ -2,4 +2,4 @@ spring:
   redis:
     host: ${SPRING_REDIS_HOST}
     port: 6376
-    password: ${SPRING_REDIS_PASSWORD}
+    password: pavan
