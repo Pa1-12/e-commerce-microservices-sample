@@ -15,7 +15,7 @@ RUN mkdir -p $APP_SERVE_DIR
 # Change working directory to application directory
 WORKDIR $APP_BUILD_DIR
 
-# Copy package.json to /app directory
+# Copy package.json to /app directory check
 COPY package.json .
 
 # Install node modules/dependencies
