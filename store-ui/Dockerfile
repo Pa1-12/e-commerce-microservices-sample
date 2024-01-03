@@ -21,7 +21,7 @@ COPY package.json .
 # Install node modules/dependencies
 RUN npm install
 
-# Copy application code
+# Copy application source code
 COPY . .
 
 RUN npm run build
